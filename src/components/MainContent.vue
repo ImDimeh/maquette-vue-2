@@ -128,6 +128,7 @@
       <a class="See-all-Coins"> See all coins</a>
     </div>
     <TransactionBTC></TransactionBTC>
+    <TransactionETH></TransactionETH>
    <div>
 
    </div>
@@ -144,11 +145,13 @@
 <script>
 
 import TransactionBTC from "@/components/TransactionBTC";
+import TransactionETH from "@/components/TransactionEth";
 
 export default {
   name: "MainContent" ,
   components: {
-    TransactionBTC
+    TransactionBTC,
+    TransactionETH
   }
 }
 </script>
