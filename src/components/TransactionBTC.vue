@@ -63,13 +63,13 @@ div.TransactionBTC {
   border-radius: 30px;
   background: rgba(32, 35, 43, 0.7);
 .svg-container{
-  background: rgba(32, 35, 43, 0.7);
+  background: rgba(32, 35, 43 );
 
 
 }
   svg {
     margin: 10px 10px 15px 10px;
-    background: rgba(32, 35, 43, 0.7);
+    background: rgba(32, 35, 43);
 
 
 
@@ -88,9 +88,9 @@ div.Crypto-Name {
   width: 20%;
   height: 80px;
   text-align: center;
-  background: rgba(32, 35, 43, 0.7);
+  background: rgba(32, 35, 43);
   a {
-    background: rgba(32, 35, 43, 0.7);
+    background: rgba(32, 35, 43 );
     width: 55px;
     height: 21px;
 
@@ -109,7 +109,7 @@ div.Crypto-Name {
   
 }
 div.Market-Data{
-  background: rgba(32, 35, 43, 0.7);
+  background: rgba(32, 35, 43);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -134,11 +134,11 @@ div.Market-Data{
 
     color: #FFFFFF;
 
-    opacity: 0.95;
-    background: rgba(32, 35, 43, 0.7);
+   
+    background: rgba(32, 35, 43);
   }
   a.Market-Data-Value{
-    background: rgba(32, 35, 43, 0.7);
+    background: rgba(32, 35, 43);
     width: 97px;
     height: 21px;
 
@@ -151,16 +151,16 @@ div.Market-Data{
 
     display: flex;
     align-items: center;
-background: rgba(32, 35, 43, 0.7);
+background: rgba(32, 35, 43);
     color: #1970D6;
 
-    opacity: 0.7;
+    
 
   }
 
 }
 div.Change{
-  background: rgba(32, 35, 43, 0.7);
+  background: rgba(32, 35, 43);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -170,7 +170,7 @@ div.Change{
   height: 80px;
   text-align: center;
   a {
-    background: rgba(32, 35, 43, 0.7);
+    background: rgba(32, 35, 43);
     width: 100px;
     height: 21px;
 
@@ -186,10 +186,10 @@ div.Change{
 
     color: #FFFFFF;
 
-    opacity: 0.95;
+    
   }
   a.ValueChange{
-    background: rgba(32, 35, 43, 0.7);
+    background: rgba(32, 35, 43);
     width: 46px;
 height: 21px;
 
@@ -205,14 +205,17 @@ align-items: center;
 
 color: #4AD619;
 
-opacity: 0.7;
+
   }
 
 }
 div.TradeButton-Container {
-  background: rgba(32, 35, 43, 0.7);
+   background: rgba(32, 35, 43 );
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
   width: 20%;
   height: 80px;
+
 
 
 

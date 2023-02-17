@@ -170,7 +170,7 @@ div.Bottom-data {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 100%;
+  width: 80%;
   height: 25%;
   border: none;
  
