@@ -41,8 +41,8 @@ div.logo {
   img {
 
     margin-top: 48px;
-    margin-left: 0px;
-    margin-bottom: 128px;
+    margin-left: 53px;
+    margin-bottom: 70px;
     translate: -25px 0px;
 
 
@@ -70,7 +70,7 @@ ul {
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 
 
   li   {

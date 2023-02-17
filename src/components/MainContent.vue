@@ -122,6 +122,17 @@
 </linearGradient>
 </defs>
 </svg>
+  <div class="Bottom-data">
+    <div class="Text-a-container">
+      <a class="Recent-Transation"> RECENT TRANSACTIONS</a>
+      <a class="See-all-Coins"> See all coins</a>
+    </div>
+    <TransactionBTC></TransactionBTC>
+   <div>
+
+   </div>
+
+  </div>
 
 
    
@@ -131,8 +142,14 @@
 </template>
 
 <script>
+
+import TransactionBTC from "@/components/TransactionBTC";
+
 export default {
-  name: "MainContent"
+  name: "MainContent" ,
+  components: {
+    TransactionBTC
+  }
 }
 </script>
 
@@ -143,6 +160,74 @@ div {
 
   height: 100vh;
   
+}
+div.Bottom-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 25%;
+  border: none;
+ 
+
+
+  div.Text-a-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    height: 25%;
+
+
+    margin-top: 10px;
+
+  }
+  .Recent-Transation{
+    width: 300px;
+    height: 33px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    color: #FFFFFF;
+  }
+  .See-all-Coins{
+    width: 139px;
+    height: 33px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  a {
+    color: #4D91A5;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+  }
 }
 div.head {
 
@@ -270,7 +355,7 @@ color: #FFFFFF;
       position: absolute;
         width: 50px;
       height: 25px;
-      left: 590px;
+      left: 510px;
         top: 208px;
 
       font-size: 20px;
@@ -323,7 +408,7 @@ ul.List-nav {
   justify-content: space-around;
   align-items: center;
   gap: 10px;
-  width: 500px;
+  width: 450px;
   height: 60px;
   margin-top: 50px;
   padding-left: 15px;
@@ -332,7 +417,7 @@ ul.List-nav {
   border-radius: 15px;
 
   list-style: none;
-  margin-right: 25%;
+  margin-right: 15%;
   li {
     background-color: transparent;
 
@@ -342,7 +427,7 @@ font-size: 22px;
 line-height: 33px;
 
  width: 134px;
-height: 44px;
+height: 50px;
 
 color: #FFFFFF;
 padding-top: 7px;
@@ -351,12 +436,14 @@ padding-top: 7px;
   }
   li:hover{
     width: 134px;
-height: 44px;
-    
+    height: 50px;
+
   background-color: black;
   border-radius: 17px;
   color: white;
   cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
  
   
   }
@@ -370,6 +457,7 @@ height: 44px;
   justify-content: space-between;
   align-items: center;
   height: 160px;
+  margin-left: 15px;
  
   }
 
